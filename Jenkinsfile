@@ -5,6 +5,8 @@ pipeline {
         stage ("Code pull"){
             steps{
                 checkout scm
+                bat 'npm install'
+                bat 'cd client && npm install'
             }
         }
 
