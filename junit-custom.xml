@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.356" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2019-09-06T05:43:48" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="TestSimpleStorage" timestamp="2019-09-06T05:43:48" tests="1" failures="0" time="0.142">
+    <testcase name="TestSimpleStorage testItStoresAValue" time="0.142" classname="testItStoresAValue">
+    </testcase>
+  </testsuite>
+  <testsuite name="Contract: SimpleStorage" timestamp="2019-09-06T05:43:59" tests="1" file="C:\Users\calib\source-codes\react-example\test\simplestorage.js" failures="0" time="0.214">
+    <testcase name="Contract: SimpleStorage ...should store the value 89." time="0.214" classname="...should store the value 89.">
+    </testcase>
+  </testsuite>
+</testsuites>
