@@ -19,7 +19,7 @@ pipeline {
       stage('Test Contracts') {
             steps {
                   bat "truffle test"
-                  bat "cd client && npm test"
+                  bat "cd client && npm test --no-watch"
             }
             post {
                 always {
@@ -30,10 +30,4 @@ pipeline {
             }
         }
 
-        stage('Deploy Smart Contracts') {
-            steps {
-                bat "truffle migrate"
-            }
-        }
-    }
 }
